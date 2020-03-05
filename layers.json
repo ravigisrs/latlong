@@ -1,0 +1,40 @@
+{
+    "layers": [
+        {
+            "id": "TSCLGA",
+			"name": "TSC LGA",
+            "geojson": "layers\/lga.geojson",
+			"enabled": "true",
+			"visible": "true"
+        }
+        ,
+        {
+			"id": "County",
+            "name": "County",
+            "geojson": "layers\/county.geojson",
+			"enabled": "true",
+			"visible": "false"
+        },
+        {
+			"id": "Parish",
+            "name": "Parish",
+            "geojson": "layers\/parish.geojson",
+			"enabled": "true",
+			"visible": "false"
+        },
+        {
+			"id": "Wards",
+            "name": "Wards",
+            "geojson": "layers\/wards.geojson",
+			"enabled": "true",
+			"visible": "false"
+        },
+        {
+			"id": "Suburb",
+            "name": "Suburb",
+            "geojson": "layers\/suburb.geojson",
+			"enabled": "true",
+			"visible": "false"
+        }
+    ]
+}
